@@ -14,10 +14,12 @@ HorizontalRange(Vx,x,t)
 print("FOR VERTICAL RANGE")
 g = int(input("Enter the gravitational acceleration :"))
 t = int(input("Enter time :"))
+y = int(input("Enter the vertical range :"))
 def VerticalRange(g,t):
     print("The gravitational acceleration is :", g)
     print("Time is :", t)
     y = 1/2*(g)*(t**2)
+    print("The vertical range is :", y)
 VerticalRange(g,t)
     
 
